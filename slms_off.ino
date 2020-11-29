@@ -1,9 +1,9 @@
 #include<ESP8266WiFi.h>
 WiFiClient client;
-const char* MY_SSID = "Vimal";
-const char* MY_PWD = "Vimal@2001";
+const char* MY_SSID = "xxxxx";
+const char* MY_PWD = "yyyy";
 const char* TS_SERVER = "api.thingspeak.com";
-String TS_API_KEY ="NQOWCZ7AGHAH0YF8";
+String TS_API_KEY ="xxxxx";
 void setup(){
   Serial.begin(115200);
   WiFi.begin(MY_SSID,MY_PWD);
